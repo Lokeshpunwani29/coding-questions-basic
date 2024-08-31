@@ -4,9 +4,12 @@ using namespace std;
 int main()
 {
    int i, arr[10], large, slarge;
-   cout<<"Enter 10 Array Elements: ";
+   cout<<"Enter 10 Array Elements: "<<endl;
    for(i=0; i<10; i++)
+      {
       cin>>arr[i];
+      cin.ignore();
+      }
    large = arr[0];
    for(i=0; i<10; i++)
    {
